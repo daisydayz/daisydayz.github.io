@@ -19,8 +19,11 @@ const config = {
   logo_url: "https://nebulix.unfolding.io/logo.svg",
   local_backend: true,
   backend: {
-    name: "test-repo",
-  },
+  name: 'github',
+  repo: 'daisydayz/daisydayz.github.io', // Path to your GitHub repository
+  // optional, defaults to main
+  // branch: 'main'
+},
   search: true,
   media_folder: "src/assets",
   public_folder: "/src/assets",
