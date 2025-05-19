@@ -23,7 +23,7 @@ const m2dxOptions = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "daisydayz.github.io",
+  site: "https://daisydayz.github.io",
   integrations: [
     icon(),
     mdx({}),
